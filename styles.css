@@ -1,0 +1,28 @@
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.jumbotron
+{
+    margin-top: 60px;
+    height: 500px;
+    width: 100%;
+    display: table;
+}
+
+.header-info
+{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#collapsibleNavbar ul {
+    margin-left: auto;
+}
