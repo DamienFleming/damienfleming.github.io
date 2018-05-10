@@ -1,11 +1,39 @@
-.fixed-navbar {
+.fixed-navbar 
+{
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-.navbar {
+.navbar 
+{
     height: 60px;
+    background-color: rgb(20, 20, 20);
+}
+
+.navbar li
+{
+    background-color: rgb(37, 37, 37);
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 4px;
+}
+
+.navbar li :hover
+{
+    background-color: rgb(50, 50, 50);
+    color: rgb(178, 228, 190);
+    border-radius: 4px;
+}
+
+.navbar li:last-child
+{
+    margin-right: 0px;
+}
+
+.navbar a 
+{
+    color: rgb(255, 255, 255);
 }
 
 .jumbotron
@@ -14,13 +42,47 @@
     height: 500px;
     width: 100%;
     display: table;
+    background-image: url("Images/portfolio-background.png");
+    background-position: center;
+    border-radius: 0;
 }
 
-.header-info
+@media (max-width: 1000px)
+{
+    .jumbotron
+    {
+        height: 300px;
+    }
+}
+
+#header-info
 {
     display:table-cell;
     vertical-align:middle;
     text-align:center;
+    color: #FFFFFF;
+}
+
+#header-info img, #header-text
+{
+    display: inline-block;
+}
+
+#header-text
+{
+    width: 360px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+#header-text h1 
+{
+    margin-top: 5px;
+}
+
+#header-text p 
+{
+    margin-bottom: 0px;
 }
 
 #collapsibleNavbar ul {
