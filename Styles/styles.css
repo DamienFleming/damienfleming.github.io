@@ -1,3 +1,8 @@
+body 
+{
+    background: #d1d9d0;
+}
+
 .fixed-navbar 
 {
     position: fixed;
@@ -39,6 +44,7 @@
 .jumbotron
 {
     margin-top: 60px;
+    margin-bottom: 0px;
     height: 500px;
     width: 100%;
     display: table;
@@ -85,6 +91,15 @@
     margin-bottom: 0px;
 }
 
-#collapsibleNavbar ul {
+#collapsibleNavbar ul 
+{
     margin-left: auto;
+}
+
+hr 
+{
+    height: 20px;
+    margin: 0px;
+    background: linear-gradient(#0a3e26 40%, #d1d9d0);
+    border: none;
 }
