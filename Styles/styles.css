@@ -53,14 +53,6 @@ body
     border-radius: 0;
 }
 
-@media (max-width: 1000px)
-{
-    .jumbotron
-    {
-        height: 300px;
-    }
-}
-
 #header-info
 {
     display:table-cell;
@@ -96,10 +88,58 @@ body
     margin-left: auto;
 }
 
-hr 
+#about-section
+{
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 40px auto;
+}
+
+p
+{
+    margin-bottom: 0.5rem;
+}
+
+#about-section h1
+{
+    margin-bottom: 20px;
+}
+
+#banner-color-fade 
 {
     height: 20px;
     margin: 0px;
     background: linear-gradient(#0a3e26 40%, #d1d9d0);
     border: none;
+}
+
+#main-page-content
+{
+    padding: 0px 10px;
+}
+
+#my-motto
+{
+    font-style: italic;
+    color: #0a3e26;
+    width: 90%;
+    margin: 20px 0px 0px 20px;
+}
+
+@media (max-width: 600px)
+{
+    #about-section
+    {
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .jumbotron
+    {
+        height: 300px;
+    }
 }
